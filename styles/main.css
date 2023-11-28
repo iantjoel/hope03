@@ -1,0 +1,33 @@
+.hero {
+  width: 100%;
+  text-align: center;
+}
+
+.hero__img {
+  background-image: url(../images/hero-img.png);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  width: 100%;
+  height: 45vh;
+}
+
+.hero__img h3 {
+  font-weight: 400;
+  height: fit-content;
+}
+
+.hero__cta {
+  margin-bottom: 4rem;
+}
+
+.index__content {
+  display: flex;
+}
+
+.index__content .content__right {
+  width: 85%;
+}

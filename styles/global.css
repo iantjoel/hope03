@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&family=Noto+Serif:wght@400;600&display=swap");
+
+/*color*/
+:root {
+  --primary: #2c4200;
+  --secondary-hover: #d0ea9c;
+  --secondary: #deedc1;
+  --secondary-shade: #aeb999;
+  --body: #2a3c26;
+  --white: #fafafa;
+}
+
+* {
+  list-style: none;
+  text-decoration: none;
+}
+
+/*fonts*/
+:root {
+  --serif-en: "Noto Serif", serif;
+  --sans-en: "Noto Sans", sans-serif;
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  font-family: var(--serif-en);
+  font-size: 1.8rem;
+  font-weight: 400;
+  margin: 0;
+}
+
+main {
+  margin: 0 auto;
+  width: 95%;
+  min-width: 800px;
+  max-width: 1500px;
+}
+
+h1 {
+  font-size: 5.5rem;
+  font-weight: 400;
+  color: var(--primary);
+}
+
+h2 {
+  font-size: 2.4rem;
+  color: var(--primary);
+}
+
+h3 {
+  font-size: 2rem;
+  color: var(--primary);
+}
+
+a {
+  color: var(--primary);
+}
+
+p {
+  font-family: var(--sans-en);
+}
+
+ul {
+  padding: 0;
+}
+
+.cta {
+  color: var(--primary);
+  width: fit-content;
+  padding: 0.8rem 2.5rem;
+  height: fit-content;
+  border-radius: 2rem;
+}
+
+img {
+  object-fit: cover;
+}
+
+.section-divider {
+  border: none;
+  background-color: var(--secondary-shade);
+  height: 0.2rem;
+  width: 95%;
+}
+
+.cta--default {
+  background-color: var(--secondary);
+}
+
+.cta--hover {
+  background-color: var(--secondary-hover);
+}

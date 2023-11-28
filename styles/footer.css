@@ -1,0 +1,12 @@
+footer {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.footer__logo {
+    object-fit: scale-down;
+    height: 1.7rem;
+    margin: 0 0.5rem -0.15rem;
+}
+
